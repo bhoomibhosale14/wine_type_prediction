@@ -30,16 +30,16 @@ quality = st.number_input("Quality")
 
 df = pd.DataFrame({
     "fixed acidity": [fixed_acidity],
-    "volatile acidity": [volatile_acidity]
-    "citric acid": [citric_acid]
-    "residual sugar": [residual_sugar]
-    "cholorides": [cholorides]
-    "free sulfur dioxide": [free_sulfur_dioxide]
-    "total sulfur dioxide": [total_sulfur_dioxide]
-    "density": [density]
-    "pH": [pH]
-    "sulphates": [sulphates]
-    "alcohol": [alcohol]
+    "volatile acidity": [volatile_acidity],
+    "citric acid": [citric_acid],
+    "residual sugar": [residual_sugar],
+    "cholorides": [cholorides],
+    "free sulfur dioxide": [free_sulfur_dioxide],
+    "total sulfur dioxide": [total_sulfur_dioxide],
+    "density": [density],
+    "pH": [pH],
+    "sulphates": [sulphates],
+    "alcohol": [alcohol],
     "quality": [quality]
 })
 
