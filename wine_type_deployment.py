@@ -19,7 +19,7 @@ fixed_acidity = st.number_input("Fixed Acidity")
 volatile_acidity = st.number_input("Volatile Acidity")
 citric_acid = st.number_input("Citric Acid")
 residual_sugar = st.number_input("Residual Sugar")
-cholorides = st.number_input("Cholorides")
+chlorides = st.number_input("Chlorides")
 free_sulfur_dioxide = st.number_input("Free Sulphur Dioxide")
 total_sulfur_dioxide = st.number_input("Total Sulphur Dioxide")
 density = st.number_input("Density")
@@ -33,7 +33,7 @@ df = pd.DataFrame({
     "volatile acidity": [volatile_acidity],
     "citric acid": [citric_acid],
     "residual sugar": [residual_sugar],
-    "cholorides": [cholorides],
+    "chlorides": [chlorides],
     "free sulfur dioxide": [free_sulfur_dioxide],
     "total sulfur dioxide": [total_sulfur_dioxide],
     "density": [density],
